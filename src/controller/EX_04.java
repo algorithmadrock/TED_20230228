@@ -10,6 +10,10 @@ import javax.swing.JOptionPane;
 
 public class EX_04 {
 
+	public EX_04() {
+		super();
+	}
+
 	public void base() {
 		String texto = JOptionPane.showInputDialog("Digite o texto para ser invertido.");
 //		System.out.println(texto.length() + " " + texto.substring(0, 1));

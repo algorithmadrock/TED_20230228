@@ -9,6 +9,10 @@ package controller;
 import javax.swing.JOptionPane;
 
 public class EX_01 {
+	
+	public EX_01() {
+		super();
+	}
 
 	public void base() {
 		int valor;

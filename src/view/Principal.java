@@ -21,7 +21,7 @@ public class Principal {
 
 		do {
 			opcao = Integer.parseInt(JOptionPane.showInputDialog(
-					"Digite o exerxício para exibição:\n\n 1) Crie uma função recursiva que exiba o resultado do fatorial de um número.\r\n(Pela limitação da recursividade, o número de entrada deverá ser baixo para não dar estouro (limite de entrada = 12))\n 2) Crie uma função recursiva que exiba o total de elementos negativos de um vetor de inteiros, de N posições, passado como parâmetro.\n 3) Crie uma função recursiva que exiba a quantidade de dígitos de um número inteiro passado como parâmetro.\n 4) Crie uma função recursiva que exiba o resultado da inversão de uma cadeia de caracteres entrada = teste ; saída = etset)\n\n Para SAIR prssione 0."));
+					"Digite o exercício para exibição:\n\n 1) Crie uma função recursiva que exiba o resultado do fatorial de um número.\n    (Pela limitação da recursividade, o número de entrada deverá ser baixo para não dar estouro (limite de entrada = 12))\n 2) Crie uma função recursiva que exiba o total de elementos negativos de um vetor de inteiros, de N posições, passado como parâmetro.\n 3) Crie uma função recursiva que exiba a quantidade de dígitos de um número inteiro passado como parâmetro.\n 4) Crie uma função recursiva que exiba o resultado da inversão de uma cadeia de caracteres entrada = teste ; saída = etset)\n\n Para SAIR digite 0."));
 			switch (opcao) {
 			case 1:
 				umme.base();

@@ -9,6 +9,10 @@ package controller;
 import javax.swing.JOptionPane;
 
 public class EX_03 {
+	
+	public EX_03() {
+		super();
+	}
 
 	public void base() {
 		int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro. "));

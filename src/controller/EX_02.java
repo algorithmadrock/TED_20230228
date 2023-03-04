@@ -11,6 +11,10 @@ import javax.swing.JOptionPane;
 
 public class EX_02 {
 
+	public EX_02() {
+		super();
+	}
+
 	public void base() {
 
 		int tamanho = (Integer.parseInt(JOptionPane.showInputDialog("Digite o tamanho do vetor:")) - 1);
